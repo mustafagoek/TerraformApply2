@@ -1,4 +1,4 @@
 resource "azurerm_resource_group" "mgok-test" {
-  name     = "test-rg1"
+  name     = "example"
   location = "West Europe"
 }
