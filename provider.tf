@@ -7,12 +7,12 @@ terraform {
   }
 
   backend "remote" {
-  organization = "MustafaG"
+    organization = "MustafaG"
 
-  workspaces {
-    name = "T-1217-FirstWork"
+    workspaces {
+      name = "T-1217-FirstWork"
+    }
   }
-}
 }
 
 provider "azurerm" {
